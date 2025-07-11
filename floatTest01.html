@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float 연습</title>
+    <style>
+        #orange{
+            width: 500px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        /* 이미지 왼/오 배치가 float */
+        .box {
+            border: 1px solid grey;
+            width: 800px;
+            padding: 20px;
+        }
+        #box1{
+            background-color: aquamarine;
+            float: left;
+            padding: 20px;
+            margin: 10px;
+        }
+        #box2{
+            background-color: burlywood;
+            float: right;
+            padding: 20px;
+            margin: 10px;
+        }
+        .clear{
+            clear: both;
+            /* float 영향 받지 않게 하는 태그 */
+        }
+      
+    </style>
+</head>
+<body>
+    <p>Ex et adipisicing voluptate aliqua cupidatat nulla. Laboris est sint sit aliqua enim. Aute Lorem eu sint aute sunt proident. Do culpa consectetur elit duis laboris reprehenderit incididunt nulla. Irure exercitation tempor aliqua laboris cupidatat anim in non officia aliquip excepteur fugiat labore.</p>
+    <img src="image/orange.jpg">
+    <p>Lorem ipsum reprehenderit adipisicing exercitation enim velit veniam incididunt sit consectetur elit exercitation. Commodo veniam sit quis nisi ea. Ipsum do aliqua nostrud laboris elit duis adipisicing id Lorem qui. Labore dolor ipsum enim incididunt. Velit qui cillum sunt labore incididunt duis aute Lorem nulla et. Sint commodo aute amet laboris ullamco exercitation Lorem dolore veniam ut reprehenderit incididunt. Laborum nulla eiusmod cillum irure anim aute.</p>
+    <p>Excepteur voluptate ad irure ipsum duis. Deserunt cupidatat commodo proident eu mollit cillum commodo quis quis et ad. Incididunt adipisicing enim laboris voluptate.</p>
+    <hr>
+    <div class="box">
+        <div id="box1"><a href="#">박스1</a></div>
+        <div id="box2">박스2</div>
+        <p> voluptate ad irure ipsum duis. Deserunt cupidatat commodo proident eu mollit  </p>
+        <p class="clear"> voluptate ad irure ipsum duis. Deserunt cupidatat commodo proident eu mollit  </p>
+    </div>
+</body>
+</html>
