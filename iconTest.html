@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cnd 에서 fontawesome 검색후 태그 복사  -->
+    <title>CSS 아이콘 연습</title>
+    <style>
+        ul {list-style: none;}
+        /* li 앞 글머리 기호 없애는 코드 */
+        h1 {
+            font-size: 70px;
+            color: rgba(100, 105, 31, 0.3);
+            /* rgb/rgba a는 알파값으로 투명도 지정 0-1 숫자가 작을수록 투명 */
+        }
+        a:link {
+            text-decoration: none;
+            color: red;
+        }
+        /*a:link 아직 방문하지 않은 링크 상태, 하이퍼 링크 밑줄 삭제, */
+        a:visited{
+            color: pink;
+        }
+        /* a:visited 방문한 링크 상태 */
+        a:hover{
+            text-decoration: underline;
+            color: red;
+            font-style: italic;
+        }
+        /* a:hover 마우스 올렸을떄 상태 */
+        /* 링크 -비지티드-호버 순서대로 해야 함 */
+        a:active{
+            color: cyan;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house-chimney"></i>
+                <!-- font awesome에서 검색 -->
+                <a href="#">메뉴1</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-calendar-days"></i>
+                <a href="#">메뉴2</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-mobile" style="color: #f90b0b;"></i>
+                <a href="fontTest.html">메뉴3</a>
+            </li>
+            
+        </ul> 
+    </nav>
+    <h1>CSS 색상 연습</h1>
+</body>
+</html>
